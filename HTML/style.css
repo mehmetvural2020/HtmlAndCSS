@@ -1,0 +1,13 @@
+h1 {
+    background-color:yellow;
+    color: purple;
+    font-size: 30;
+}
+h2 {
+    background-color: orange;
+}
+
+img { 
+    border-color: green;
+    border-width: 10 px;
+}

@@ -1,0 +1,77 @@
+<organization> </organization>
+
+<head>
+    <title>
+        Profile Page
+    </title>
+    <style>
+        #uline {
+            text-decoration: underline;
+            text-underline-offset: 1em;
+        }
+
+        #border {
+            border-style: solid;
+            border-width: 3px;
+            border-color: red;
+
+        }
+
+        /* Button class */
+        .buttonclass {
+            border: 0;
+            line-height: 2.5;
+            padding: 0 20px;
+            font-size: 1rem;
+            text-align: center;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 10px;
+            background-color: green;
+
+        }
+
+        .styled:hover {
+            background-color: rgba(255, 0, 0, 1);
+        }
+
+        .styled:active {
+            box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Create Profile</h1>
+
+    <p> Please fill the following information. </p>
+    <form>
+        <fieldset>
+            <label>NAME : </label><br><input type="text" value="Name">
+            <br>
+            <br>
+            <label>LAST NAME : </label><br><input type="text" value="Last Name">
+            <br>
+            <br>
+            <label>EMAIL : </label><br><input type="text" value="Email">
+            <br>
+            <br>
+            <label>PASSWORD : </label><br><input type="text" value="Password">
+            <br>
+            <br>
+            <label>ZIP CODE : </label><br><input type="text" value="Zip Code(5 Digits)" id="name" name="name" required
+                minlength="5" maxlength="5" size="20">
+            <br>
+            <br>
+            <label>Degree</label>
+            <br><input type="radio"><label id="uline">Community College</label>
+            <br><input type="radio"><label id="border" id="uline">University</label>
+            <br><input type="radio"><label id="uline">PHD</label>
+            <br>
+            <br>
+            <input type="button" class="buttonclass" value="Submit">
+        </fieldset>
+    </form>
+
+</body>
